@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
             notePosition = DataManager.notes.lastIndex
         }
     }
-
+    //After culprit added
     override fun onSaveInstanceState(outState: Bundle?) {
         super.onSaveInstanceState(outState)
         outState?.putInt(NOTE_POSITION, notePosition)
