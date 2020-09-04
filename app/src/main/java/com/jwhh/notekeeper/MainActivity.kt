@@ -12,6 +12,7 @@ import kotlinx.android.synthetic.main.content_main.*
 class MainActivity : AppCompatActivity() {
     private var notePosition = POSITION_NOT_SET
 
+    //New constants added
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
